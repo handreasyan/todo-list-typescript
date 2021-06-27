@@ -1,0 +1,131 @@
+.App {
+  height: 100vh;
+  background: #c749c7;
+}
+.nav-bar {
+  background: #d01dd0;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px;
+  color: white;
+  align-items: center;
+}
+.nav-title {
+  font-size: 40px;
+}
+.pages a{
+  color: white;
+  font-size: 30px;
+  margin-right: 40px;
+  text-decoration: none;
+  display: inline-block;
+  height: 80px;
+  width: 150px;
+  text-align: center;
+  line-height: 80px;
+  background: #cc30cd;
+  border-radius: 20px;
+  transition: all 0.5s ease;
+}
+.pages a:hover {
+  background: #c749c7;
+  transition: all 0.5s ease;
+}
+.container {
+  background: #c749c7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.todo-form {
+  width: 50%;
+  height: 50px;
+}
+.todo-form input {
+  width: 80%;
+  height: 100%;
+  background: none;
+  outline: none;
+  border: none;
+  font-size: 35px;
+  color: red;
+  border-bottom: 3px solid purple;
+}
+.todo-form input::placeholder {
+  color: #e791e7;
+}
+.todo-form button {
+  cursor: pointer;
+  width: 19%;
+  border: none;
+  background: purple;
+  height:100%;
+  color: red;
+  font-size: 26px;
+}
+.todo-form button:active {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.list {
+  padding: 0;
+  list-style: none;
+  width: 50%;
+}
+.list li {
+  box-sizing: border-box;
+  border-bottom: 3px solid #fff;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  padding-left:20px;
+  align-items: center;
+  font-size: 30px;
+  line-height: 30px;
+  color: white;
+}
+.list input {
+  width: 20px;
+  height: 20px;
+  margin-right: 30px;
+  cursor: pointer;
+}
+.list button {
+  width: 40px;
+  height: 20px;
+  border: none;
+  background: purple;
+  color: red;
+  font-weight: 800;
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.message {
+  margin-top: 30px;
+  font-size: 30px;
+  color: white;
+}
+.about_page {
+  color: white;
+  padding-left: 50px;
+}
+.about_page h1{
+  font-size: 40px;
+}
+.about_page p{
+  font-size: 18px;
+}
+.about_page button{
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: 800;
+  color: purple;
+}
